@@ -1,0 +1,40 @@
+.listofusers{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.listofusers h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #585656;
+    font-family: sans-serif;
+}
+.listofusers button{
+    background-color: #2991ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.listofuserscontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+.listofuserscontainer li{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #612a2a;
+    font-family: sans-serif;
+}
+.listofuserscontainer li:hover{
+    color: #2991ff;
+    cursor: pointer;
+}
